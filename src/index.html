@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic interface practice</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <div id="menu_top">▽</div>
+        <!-- Bottom part of menu is initially hidden until menu_top is clicked -->
+        <div id="menu_bottom" class="hidden">
+          <div id="menu_link_1" class="menu_link">Menu Link 1</div>
+          <div id="menu_link_2" class="menu_link">Menu Link 2</div>
+          <div id="menu_link_3" class="menu_link">Menu Link 3</div>
+          <div id="menu_link_4" class="menu_link">Menu Link 4</div>
+          <div id="menu_link_5" class="menu_link">Menu Link 5</div>
+        </div>
+      </div>
+      <div id="main">
+        <div id="photo_carousel">
+          <div id="frame">
+            <div id="slides">
+              <div id="slide_1" class="slide">
+                <img
+                  src="./images/railay.jpg"
+                  alt="An image of Railay Bay in Thailand"
+                />
+              </div>
+              <div id="slide_2" class="slide">
+                <img
+                  src="./images/koh_lanta.jpg"
+                  alt="An image of Koh Lanta in Thailand"
+                />
+              </div>
+              <div id="slide_3" class="slide">
+                <img
+                  src="./images/koh_tao.jpg"
+                  alt="An image of Koh Tao in Thailand"
+                />
+              </div>
+              <div id="slide_4" class="slide">
+                <img
+                  src="./images/koh_phangan.jpg"
+                  alt="An image of Koh Phangan in Thailand"
+                />
+              </div>
+              <div id="slide_5" class="slide">
+                <img
+                  src="./images/ko_samui.jpg"
+                  alt="An image of Ko Samui in Thailand"
+                />
+              </div>
+            </div>
+            <div id="left_button" class="button">&#10594;</div>
+            <div id="right_button" class="button">&#10596;</div>
+            <div id="image_circles">
+              <div id="image_circle_0" class="image_circle">◦</div>
+              <div id="image_circle_1" class="image_circle">◦</div>
+              <div id="image_circle_2" class="image_circle">◦</div>
+              <div id="image_circle_3" class="image_circle">◦</div>
+              <div id="image_circle_4" class="image_circle">◦</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
